@@ -1,0 +1,111 @@
+body {
+  background-image: url(images/sun.png);
+  margin: 0;
+  border: 0;
+  padding: 3mm 7mm;
+}
+a:hover {
+  color: black !important;
+}
+button:hover ~ hr {
+  border-top: 2px solid #b799ff !important;
+}
+nav:hover ~ hr {
+  border-top: 2px solid #b799ff !important;
+}
+/* -----------------------------------------------NAVBAR */
+nav {
+  font-size: 24px;
+}
+nav a {
+  margin: 0 16px;
+  text-decoration: none !important;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+nav #homepage {
+  font-size: 45px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+}
+nav button {
+  border: 0;
+  border-radius: 40px;
+  margin-left: 10px;
+  background-color: #d8c4b6;
+}
+nav button a {
+  padding: auto;
+}
+
+hr {
+  margin: 3px auto !important;
+  width: 90%;
+  border-radius: 10px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+/* -----------------------------------First CONTAINER  */
+div.firstCont .row {
+  text-align: center;
+  padding: 10px 0;
+}
+div.firstCont img {
+  width: inherit;
+  height: inherit;
+}
+div.firstCont img.yoga3img {
+  height: 70%;
+  width: 65%;
+}
+div.firstCont button {
+  border-radius: 60px;
+  padding: 6px;
+  width: 120px;
+  height: 120px;
+  background-color: #d8c4b6;
+  border: 0;
+}
+div.firstCont button h6 {
+  margin: 0;
+}
+/*------------------------------------------- SUN CONTAINER  */
+
+div.sun img {
+  position: absolute;
+  max-width: 100%;
+  top: 390px;
+  left: 0;
+  z-index: -1;
+}
+
+/* -----------------------------------SECOND CONTAINER  */
+
+div.SecondCont {
+  text-align: center;
+}
+div.SecondCont h1 {
+  font-family: "Cherry Bomb One", cursive;
+  padding-top: 40px;
+}
+div.SecondCont p {
+  padding: 30px 85px 0 85px;
+  font-family: "Monomaniac One", sans-serif;
+  font-size: 25px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #d8c4b6;
+
+  padding: 1px;
+  border-radius: 40px;
+  font-size: 35px;
+}
